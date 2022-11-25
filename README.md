@@ -1,2 +1,1 @@
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=def0ut)](https://github.com/def0ut/github-readme-stats)
