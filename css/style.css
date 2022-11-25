@@ -1,0 +1,175 @@
+
+/* BASIC CONFIGURATION */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+/* HEADER  -------------------> */
+
+.header {
+    height: 72px;
+    border-bottom: 1px solid #E5E9F2;
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.nav {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    color: #18191F;
+    margin-top: 4px;
+}
+
+.nav-link {
+    color: #18191F;
+    text-decoration: none;
+    margin-right: 32px;    
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.app {
+    margin-left: auto;
+    display: flex;
+}
+
+.app-item {
+    margin-left: 12px;
+}
+
+.app-item:first-child {
+    margin-left: 0;
+}
+
+.nav-link:hover {
+    color: #8C30F5;
+}
+
+
+/* MAIN  -------------------> */
+
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 197px;
+    padding-bottom: 197px;
+    align-items: center;
+}
+
+.main-content {
+    font-size: 18px;
+    color: #18191F;
+    width: 540px;
+}
+
+.main-img {
+    margin-left: 58px; 
+}
+
+.main-header {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 1.36;
+        
+    color: #18191F;
+}
+
+.main-text p {
+    font-size: 18px;
+    line-height: 1.78;
+
+    color: #18191F;
+    margin: 0;
+    margin-bottom: 32px;
+
+}
+
+.button {
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 62px;
+    background: #8C30F5;
+    border-radius: 8px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 62px;
+
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+
+/* FOOTER  -------------------> */
+
+.footer {
+    height: 72px;
+    color: #FFFFFF;
+    background: #0B0D17;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
+
+.footer-copyright:hover {
+    color: lightgreen;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.img-social {
+    margin-left: 16px;
+}
+
+.img-social:first-child {
+    margin-left: 0;
+}
